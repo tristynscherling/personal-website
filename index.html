@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tristyn Scherling | Python Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Tristyn Scherling</a>
+            <nav aria-label="Primary navigation">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="about">
+            <div class="container">
+                <span class="badge">Python Developer</span>
+                <h1>Building efficient solutions with code.</h1>
+                <p>Hi, I'm Tristyn. I'm a high school student focused on automation, backend logic, and clean software development.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="https://github.com" target="_blank" rel="noreferrer" class="btn secondary">GitHub Profile</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-image" aria-label="Terminal preview for the automated file organizer project">
+                            <div class="terminal-preview">
+                                <div class="terminal-bar">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <pre><code>$ python organize.py Downloads
+Scanning directory...
+Found 42 files
+Moved images -> /Images
+Moved docs   -> /Documents
+Done.</code></pre>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="tech-tags">
+                                <span class="tag">Python 3</span>
+                                <span class="tag">Automation</span>
+                                <span class="tag">Pathlib</span>
+                            </div>
+                            <h3>Automated File Organizer</h3>
+                            <p>A desktop automation script that automatically scans, categorizes, and sorts messy directories by file extension into dedicated folders.</p>
+                            <h4>Key Learnings</h4>
+                            <ul>
+                                <li>Mastered modern object-oriented file paths using Pathlib.</li>
+                                <li>Implemented robust error handling to prevent data loss.</li>
+                            </ul>
+                            <a href="https://github.com/file-organizer" target="_blank" rel="noreferrer" class="project-link">View Source Code &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container contact-container">
+                <h2>Contact</h2>
+                <p>Interested in my work or want to connect? Reach me through GitHub.</p>
+                <a href="https://github.com" target="_blank" rel="noreferrer" class="btn primary">Open GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 Tristyn Scherling. All Rights Reserved.</p>
+            <p>Code licensed under the MIT License.</p>
+        </div>
+    </footer>
+</body>
+</html>
